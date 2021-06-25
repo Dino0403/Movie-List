@@ -153,10 +153,10 @@ function renderListModeMovieList(data) {
   data.forEach(item => {
     rawHTML += `
      <tr>
-       <td>
+       <td class="col-8 list">
          <h5 class="card-title">${item.title}</h5>
       </td>
-       <td>
+       <td class="col-4 buttonTD">
           <button class="btn btn-primary btn-show-movie mr-2" data-toggle="modal"
               data-target="#movie-modal-title" data-id=${item.id}>More</button>
           <button class="btn btn-info btn-add-favorite" data-id="${item.id}">+</button>
