@@ -1,0 +1,60 @@
+body{
+  background-color: #E0E0E0;
+}
+
+[data-change] {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-inline{
+  padding-top: 5px;
+  padding-right:5px ;
+  display: flex;
+  align-items:center;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-search{
+  font-size: 1.5rem;
+}
+
+.fa {
+  margin-right: 15px;
+  font-size: 2rem;
+}
+
+.fa:hover{
+  font-size: 38px;
+  color: #408080;
+}
+
+.card img{
+  object-fit: cover;
+  height: 350px;
+}
+
+.card:hover{
+  box-shadow: 6px 8px 14px 4px rgba(105,105,105,0.38);
+}
+
+.movie-modal-description{
+  text-align: justify;
+  word-wrap:break-word;
+  font-size: 1rem;
+}
+
+table .card-title{
+  padding-top: 10px;
+  font-size: 1rem;
+  margin:0;
+}
+
+tr{
+  border-bottom: 2px solid gray;
+}
